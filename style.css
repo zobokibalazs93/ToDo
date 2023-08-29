@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner{
+    height: 35vh;
+    background-image: linear-gradient(to right, rgba(185, 185, 254, 0.5), rgba(43, 43, 185, 0.5)), url(MicrosoftTeams-image.png);
+    background-position: center;
+}
+header{
+    margin-top: -23vh;
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 3vw;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 255, 0.544);
+    text-transform: uppercase;
+    text-align: center;
+}
+main{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.input-container{
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 1rem blue;
+    border-radius: 10px;
+}
+#desc{
+    width: 90%;
+    border: none;
+}
+#desc:focus{
+    outline: none;
+    border-bottom: 1px solid blue;
+}
+.fa-plus{
+cursor: pointer;
+color: blue;
+border: 1px solid blue;
+padding: 5px;
+border-radius: 5px;
+}
+.todolist-container{
+    margin-top: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem blue;
+    padding: 1rem;
+    height: 50vh;
+    overflow: auto;
+} 
+.todoitem{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px solid lightblue;
+}
+
+.fa-trash-can{
+    color: red;
+    cursor: pointer;
+}
+.fa-check{
+    cursor: pointer;
+}
